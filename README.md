@@ -78,3 +78,20 @@ This dataset is intended for academic research on:
 - Temporal robustness benchmarking  
 
 ---
+
+## 🔄 Dynamic Model-Switching Framework
+
+![Dynamic Model-Switching Framework](figures/Dynamic model-switching framework.png)
+
+**Figure 1.** Architecture of the proposed Dynamic Model-Switching framework introduced in our LREC 2026 paper.  
+Given an input \(x\), the system evaluates two temporally specialized generators:
+
+- **Big_Model (M₁)** – trained on historical data  
+- **Small_Model (M₂)** – fine-tuned on recent data  
+
+A lightweight switch model selects the most temporally appropriate model based on:
+
+- Contextual relevance reward \(r_{context}\)  
+- An adaptive temporal validity threshold \(τ\)  
+
+This design enables temporally-aware generation without requiring continual retraining of the base models.
