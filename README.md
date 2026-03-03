@@ -81,7 +81,7 @@ This dataset is intended for academic research on:
 
 ## 🔄 Dynamic Model-Switching Framework
 
-![Dynamic Model-Switching Framework](figures/Dynamic model-switching framework.png)
+![Dynamic Model-Switching Framework](figures/dynamic_model_switching_framework.png.png)
 
 **Figure 1.** Architecture of the proposed Dynamic Model-Switching framework introduced in our LREC 2026 paper.  
 Given an input \(x\), the system evaluates two temporally specialized generators:
