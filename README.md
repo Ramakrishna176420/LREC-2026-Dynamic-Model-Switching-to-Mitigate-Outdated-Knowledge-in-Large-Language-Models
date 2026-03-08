@@ -1,4 +1,4 @@
-# LREC-2026-Dynamic-Model-Switching-to-Mitigate-Outdated-Knowledge-in-Large-Language-Models
+# Dynamic-Model-Switching-to-Mitigate-Outdated-Knowledge-in-Large-Language-Models
 
 # TaDD: Temporally-aware Dynamic Dataset (LREC 2026)
 
