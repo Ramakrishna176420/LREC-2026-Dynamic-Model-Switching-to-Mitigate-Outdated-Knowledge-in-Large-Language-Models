@@ -91,7 +91,7 @@ Given an input \(x\), the system evaluates two temporally specialized generators
 
 A lightweight switch model selects the most temporally appropriate model based on:
 
-- Contextual relevance reward \(r_{context}\)  
+- Contextual relevance reward.  
 - An adaptive temporal validity threshold \(τ\)  
 
 This design enables temporally-aware generation without requiring continual retraining of the base models.
